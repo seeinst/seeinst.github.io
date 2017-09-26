@@ -1,0 +1,199 @@
+.msp-preset-btn-164 {
+    background-color: #fff;
+    color: #222;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-164:hover {
+    text-decoration: none;
+    background-color: #222;
+    color: #fff
+}
+
+.msp-preset-btn-164:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-preset-btn-165 {
+    background-color: #222;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-165:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222
+}
+
+.msp-preset-btn-165:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-preset-btn-166 {
+    background-color: transparent;
+    border: 1px solid #222;
+    color: #222;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-166:hover {
+    text-decoration: none;
+    background-color: #222;
+    color: #fff
+}
+
+.msp-preset-btn-166:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-cn-12-1 {
+    padding-top: 12px;
+    padding-right: 45px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    border-color: #ffffff;
+    border-style: solid;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-68-2 {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-12-3 {
+    padding-top: 16px;
+    padding-right: 36px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.msp-cn-68-6 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 4px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #222222;
+}
+
+.msp-cn-68-7 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    white-space: nowrap;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.msp-cn-12-8 {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+}
+
+.msp-cn-12-12 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 7px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-12-13 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-12-14 {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+}
+
+.msp-cn-68-18 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.msp-cn-68-21 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 60px;
+    line-height: normal;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.msp-cn-68-22 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.msp-cn-12-23 {
+    font-family: "Roboto";
+    font-weight: normal;
+    line-height: normal;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.ms-fashion .ms-slide-layers {
+    overflow: visible;
+}

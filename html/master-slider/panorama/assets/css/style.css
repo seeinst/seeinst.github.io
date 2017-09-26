@@ -1,0 +1,138 @@
+.msp-preset-btn-177 {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-177:hover {
+    text-decoration: none;
+    background-color: #f9f9f9;
+    color: #666;
+    border: 2px solid #f9f9f9
+}
+
+.msp-preset-btn-177:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-cn-140-2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 66px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-3 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-140-4 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-5 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.msp-cn-140-11 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 66px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-31 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 66px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-32 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-140-33 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-34 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.msp-cn-140-35 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 66px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-140-36 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 8px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-140-37 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 8px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.ms-panorama .ms-slide-layers {
+    overflow: visible;
+}

@@ -1,0 +1,90 @@
+.msp-cn-130-2 {
+    font-family: "Yanone Kaffeesatz";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-130-5 {
+    font-family: "Yanone Kaffeesatz";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-130-8 {
+    font-family: "Yanone Kaffeesatz";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.animated-mouse .ms-wheel-icon {
+    -webkit-animation: scroll-wheel 1.3s ease-out infinite forwards;
+    -moz-animation: scroll-wheel 1.3s ease-out infinite forwards;
+    animation: scroll-wheel 1.3s ease-out infinite forwards;
+}
+
+@-webkit-keyframes scroll-wheel {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes scroll-wheel {
+    0% {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -moz-transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+@keyframes scroll-wheel {
+    0% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+}

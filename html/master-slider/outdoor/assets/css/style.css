@@ -1,0 +1,150 @@
+.msp-preset-btn-174 {
+    background-color: #353535;
+    color: #fff
+}
+
+.msp-preset-btn-174:hover {
+    text-decoration: none;
+    background-color: #454545;
+    color: #fff
+}
+
+.msp-preset-btn-174:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-cn-122-1 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 1420px !important;
+    height: auto !important;
+}
+
+.msp-cn-122-2 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 436px !important;
+    height: auto !important;
+}
+
+.msp-cn-122-3 {
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-122-4 {
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-122-5 {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #353535;
+}
+
+.msp-cn-122-6 {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+}
+
+.msp-cn-122-7 {
+    background-color: #353535;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-122-8 {
+    background-color: #353535;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-122-11 {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: #353535;
+}
+
+.msp-cn-122-12 {
+    background-color: #333333;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    text-align: right;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-122-13 {
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-size: 50px;
+    text-align: right;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.fs-slider .fullwidth-layers .ms-slide-layers {
+    left: 0 !important;
+    max-width: none !important;
+}
+
+@media screen and (min-width: 1550px) {
+    .font-title-48 {
+        font-size: 48px !important;
+    }
+
+    .font-desc-16 {
+        font-size: 16px !important;
+    }
+
+    .fs-slider .grass {
+        left: 309px !important;
+        bottom: 74px !important;
+    }
+}
