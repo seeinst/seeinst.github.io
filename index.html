@@ -28,6 +28,9 @@
         <link rel="stylesheet" href="assets/css/offroad_style.css">
         <!-- CSS Customization -->
         <link rel="stylesheet" href="html/assets/css/custom.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     </head>
     <body>
         <main>
@@ -661,16 +664,6 @@
                             <hr class="g-brd-gray-light-v4 g-mt-50 mb-0">
                             <div id="stickyblock-start" class="js-sticky-block g-sticky-block--lg g-pt-50" data-start-point="#stickyblock-start" data-end-point="#stickyblock-end">
                                 <!-- Publications -->
-                                <div class="g-mb-50">
-                                    <h3 class="h5 g-color-black g-font-weight-600 mb-4">Newsletter</h3>
-                                    <div class="input-group">
-                                        <span class="input-group-btn"><button class="btn u-btn-primary g-rounded-left-50 g-py-13 g-px-20">
-                                                <i class="icon-communication-062 u-line-icon-pro g-pos-rel g-top-1"></i>
-                                            </button></span>
-                                        <input class="form-control g-brd-primary g-placeholder-gray-dark-v5 border-left-0 g-rounded-right-50 g-px-15" type="email" placeholder="Enter your email ...">
-                                    </div>
-                                </div>
-                                <hr class="g-brd-gray-light-v4 g-my-50">
                                 <div id="mc_embed_signup">
                                     <form action="https://seeinstitute.us17.list-manage.com/subscribe/post?u=c75a479d8e65c57f3d753e2f6&amp;id=869318b76d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                         <div id="mc_embed_signup_scroll">
@@ -800,7 +793,69 @@
                                     <article>
                                         <div class="g-pos-rel g-pl-30 g-pl-0--lg g-valign-middle g-hidden-xs-down d-inline-block g-absolute-centered--x">
                                             <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="" target="_blank">DONATE</a>
+                                            <div id="paypal-button-container"></div>
+                                            <script>
+        paypal.Button.render({
+            style: {
+        size: 'small',
+        color: 'blue',
+        shape: 'pill',
+        label: 'pay',
+        tagline: 'false',
+    },
+
+            env: 'sandbox', // sandbox | production
+
+            // PayPal Client IDs - replace with your own
+            // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+            client: {
+                sandbox:    'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+                production: '<insert production client id>'
+            },
+
+            // Show the buyer a 'Pay Now' button in the checkout flow
+            commit: true,
+
+            // payment() is called when the button is clicked
+            payment: function(data, actions) {
+
+                // Make a call to the REST api to create the payment
+                return actions.payment.create({
+                    payment: {
+                        transactions: [
+                            {
+                                amount: { total: '0.01', currency: 'USD' }
+                            }
+                        ]
+                    }
+                });
+            },
+
+            // onAuthorize() is called when the buyer approves the payment
+            onAuthorize: function(data, actions) {
+
+                // Make a call to the REST api to execute the payment
+                return actions.payment.execute().then(function() {
+                    window.alert('Payment Complete!');
+                });
+            }
+
+        }, '#paypal-button-container');
+
+    </script>
+                                            <head>
+</head>
+                                            <body>
+</body>
                                         </div>
+                                        <head>
+</head>
+                                        <body>
+</body>
+                                        <head>
+</head>
+                                        <body>
+</body>
                                     </article>
                                 </div>
                                 <!-- End Footer Content -->
