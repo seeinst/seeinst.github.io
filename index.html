@@ -792,8 +792,13 @@
 </article>
                                     <article>
                                         <div class="g-pos-rel g-pl-30 g-pl-0--lg g-valign-middle g-hidden-xs-down d-inline-block g-absolute-centered--x">
-                                            <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="" target="_blank">DONATE</a>
-                                            <div id="paypal-button-container"></div>
+                                            <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WZL269YJZYM4Q" target="_blank">DONATE</a>
+                                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                <input type="hidden" name="cmd" value="_s-xclick">
+                                                <input type="hidden" name="hosted_button_id" value="WZL269YJZYM4Q">
+                                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                            </form>
                                             <script>
         paypal.Button.render({
             style: {
