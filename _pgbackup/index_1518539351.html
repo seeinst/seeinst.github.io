@@ -28,6 +28,9 @@
         <link rel="stylesheet" href="assets/css/offroad_style.css">
         <!-- CSS Customization -->
         <link rel="stylesheet" href="html/assets/css/custom.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     </head>
     <body>
         <main>
@@ -367,7 +370,7 @@
                                         </ul>
                                     </li>
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                                        <a class="nav-link g-py-7 g-px-0" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">contact us</a>
+                                        <a class="nav-link g-py-7 g-px-0" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">ABOUT US</a>
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages">
                                             <!--Pages - About-->
                                             <li class="dropdown-item hs-has-sub-menu">
@@ -661,31 +664,20 @@
                             <hr class="g-brd-gray-light-v4 g-mt-50 mb-0">
                             <div id="stickyblock-start" class="js-sticky-block g-sticky-block--lg g-pt-50" data-start-point="#stickyblock-start" data-end-point="#stickyblock-end">
                                 <!-- Publications -->
-                                <div class="g-mb-50">
-                                    <h3 class="h5 g-color-black g-font-weight-600 mb-4">Newsletter</h3>
-                                    <div class="input-group">
-                                        <span class="input-group-btn"><button class="btn u-btn-primary g-rounded-left-50 g-py-13 g-px-20">
-                                                <i class="icon-communication-062 u-line-icon-pro g-pos-rel g-top-1"></i>
-                                            </button></span>
-                                        <input class="form-control g-brd-primary g-placeholder-gray-dark-v5 border-left-0 g-rounded-right-50 g-px-15" type="email" placeholder="Enter your email ...">
-                                    </div>
-                                </div>
-                                <hr class="g-brd-gray-light-v4 g-my-50">
                                 <div id="mc_embed_signup">
                                     <form action="https://seeinstitute.us17.list-manage.com/subscribe/post?u=c75a479d8e65c57f3d753e2f6&amp;id=869318b76d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                         <div id="mc_embed_signup_scroll">
-                                            <h2>Subscribe to our mailing list</h2>
+                                            <h3 class="h5 g-color-black g-font-weight-600 mb-4">Newsletter</h3>
                                             <div class="indicates-required">
                                                 <span class="asterisk"></span>
                                             </div>
-                                            <div class="mc-field-group">
+                                            <div class="mc-field-group"></div>
+                                            <div class="input-group"> 
+                                                <input class="button btn u-btn-primary g-rounded-left-50 g-py-13 g-px-20" id="mc-embedded-subscribe" type="submit" value="Go" name="subscribe" />
+                                                <input class="required email form-control g-brd-primary g-placeholder-gray-dark-v5 border-left-0 g-rounded-right-50 g-px-15" id="mce-EMAIL" type="email" value="Enter your email" name="EMAIL" />
                                                 <label for="mce-EMAIL">
                                                     <span class="asterisk"></span>
                                                 </label>
-                                            </div>
-                                            <div class="input-group"> 
-                                                <input class="button btn u-btn-primary g-rounded-left-50 g-py-13 g-px-20" id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" />
-                                                <input class="required email form-control g-brd-primary g-placeholder-gray-dark-v5 border-left-0 g-rounded-right-50 g-px-15" id="mce-EMAIL" type="email" value="" name="EMAIL" />
                                             </div>
                                             <div id="mce-responses" class="clear">
                                                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -788,7 +780,7 @@
                                     <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
                                         <h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
                                     </div>
-                                    <p><b>"</b><b>We are a non for profit think tank, with a mission to drive and support positive transformations in Africa's energy industry</b> through in depth analysis and thought leadership. We aim to bridge the energy knowledge  gap within, and about Africa, by informing on viable opportunities and pragmatic solutions to pressing challenges in Africa's energy industry."</p>
+                                    <p> We are a non for profit think tank, with a mission to drive and support positive transformations in Africa's energy industrythrough in depth analysis and thought leadership. We aim to bridge the energy knowledge  gap within, and about Africa, by informing on viable opportunities and pragmatic solutions to pressing challenges in Africa's energy industry."</p>
                                 </div>
                                 <!-- End Footer Content -->
                                 <!-- Footer Content -->
@@ -799,9 +791,76 @@
                                     <article>
 </article>
                                     <article>
-                                        <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
-                                            <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="" target="_blank">DONATE</a>
+                                        <div class="g-pos-rel g-pl-30 g-pl-0--lg g-valign-middle g-hidden-xs-down d-inline-block">
+                                            <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WZL269YJZYM4Q" target="_blank">DONATE</a>
+                                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                <input type="hidden" name="cmd" value="_s-xclick">
+                                                <input type="hidden" name="hosted_button_id" value="WZL269YJZYM4Q">
+                                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                            </form>
+                                            <script>
+        paypal.Button.render({
+            style: {
+        size: 'small',
+        color: 'blue',
+        shape: 'pill',
+        label: 'pay',
+        tagline: 'false',
+    },
+
+            env: 'sandbox', // sandbox | production
+
+            // PayPal Client IDs - replace with your own
+            // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+            client: {
+                sandbox:    'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+                production: '<insert production client id>'
+            },
+
+            // Show the buyer a 'Pay Now' button in the checkout flow
+            commit: true,
+
+            // payment() is called when the button is clicked
+            payment: function(data, actions) {
+
+                // Make a call to the REST api to create the payment
+                return actions.payment.create({
+                    payment: {
+                        transactions: [
+                            {
+                                amount: { total: '0.01', currency: 'USD' }
+                            }
+                        ]
+                    }
+                });
+            },
+
+            // onAuthorize() is called when the buyer approves the payment
+            onAuthorize: function(data, actions) {
+
+                // Make a call to the REST api to execute the payment
+                return actions.payment.execute().then(function() {
+                    window.alert('Payment Complete!');
+                });
+            }
+
+        }, '#paypal-button-container');
+
+    </script>
+                                            <head>
+</head>
+                                            <body>
+</body>
                                         </div>
+                                        <head>
+</head>
+                                        <body>
+</body>
+                                        <head>
+</head>
+                                        <body>
+</body>
                                     </article>
                                 </div>
                                 <!-- End Footer Content -->
@@ -887,7 +946,7 @@
                                 <div class="col-md-4 align-self-center">
                                     <ul class="list-inline text-center text-md-right mb-0">
                                         <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
-                                            <a href="#" class="g-color-white-opacity-0_5 g-color-white--hover"><i class="fa fa-facebook"></i></a>
+                                            <a class="g-color-white-opacity-0_5 g-color-white--hover" href="https://www.facebook.com/seeinst"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Linkedin">
                                             <a class="g-color-white-opacity-0_5 g-color-white--hover" href="https://www.linkedin.com/company/11422290/"><i class="fa fa-linkedin"></i></a>
