@@ -1,0 +1,49 @@
+max-width: 70vw;
+max-width: 70vw;
+max-width: 70vw;
+
+/* Add here all your css styles (customizations) */
+.post_img_paddingbottom {
+    padding-bottom: 1em;
+}
+
+.slider_small_text {
+    font-size: 2.5em;
+}
+
+.dark_button {
+    background-color: #060404;
+    color: #c1c1c1;
+    border-color: #c1c1c1;
+}
+
+.dark_button:hover {
+    background-color: #c1c1c1;
+    color: #060404;
+    border-color: #060404;
+}
+
+.light_button {
+    background-color: #c1c1c1;
+    color: #060404;
+    border-color: #060404;
+}
+
+.light_button:hover {
+    background-color: #060404;
+    color: #c1c1c1;
+    border-color: #c1c1c1;
+}
+
+.main_content_container {
+    padding: 0 20px;
+}
+
+.master-slider img,
+.ms-slide-bgvideocont video .slider_small_width {
+    max-width: 70vw;
+}
+
+.small_slider_master {
+    max-width: 70vw;
+}
