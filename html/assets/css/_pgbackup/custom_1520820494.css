@@ -55,12 +55,3 @@
 .hamburger_white_text {
     background: #efefef !important;
 }
-
-.white_bg_header {
-    background-color: rgb(255,255,255);
-    opacity: 1;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100px;
-}
