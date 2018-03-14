@@ -11659,6 +11659,6 @@
     content: "\e005";
 }
 
-.brand_width {
-    width: 13vw;
+.header_white_text {
+    color: #fff !important;
 }
