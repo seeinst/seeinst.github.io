@@ -60,13 +60,9 @@
 .master-slider.before-init {
 }
 
-@media (max-width:575px) {
-    .master-slider img,
-    .ms-slide-bgvideocont video {
-        max-width: 100%;
-        top: -28px;
-        position: absolute;
-    }
+.master-slider img,
+.ms-slide-bgvideocont video {
+    max-width: 100%;
 }
 
 .master-slider.ms-fullheight {
