@@ -64,9 +64,3 @@
     height: 110px;
     z-index: 9;
 }
-
-@media (max-width:767px) {
-    .slider_height_adj {
-        padding: ;
-    }
-}

@@ -1517,8 +1517,7 @@ hr {
 }
 
 .u-header__section {
-    position: fixed;
-    width: 100%;
+    position: relative;
     z-index: 1;
 }
 

@@ -10,7 +10,6 @@
     position: relative;
     visibility: hidden;
     -moz-transform: translate3d(0 , 0 , 0);
-    padding-top: 7rem;
 }
 
 .ms-ie img {
@@ -140,6 +139,7 @@
     -ms-transform: translateZ(0px);
     -o-transform: translateZ(0px);
     transform: translateZ(0px);
+    padding-top: 30%;
 }
 
 .ms-wk .ms-slide {

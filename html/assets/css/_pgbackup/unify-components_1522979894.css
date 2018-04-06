@@ -1522,8 +1522,11 @@ hr {
     z-index: 1;
 }
 
-.u-header__section:nth-child(1) {
-    z-index: 5;
+@media (max-width:575px) {
+    .u-header__section:nth-child(1) {
+        z-index: 5;
+        padding: 2rem !important;
+    }
 }
 
 .u-header__section:nth-child(2) {

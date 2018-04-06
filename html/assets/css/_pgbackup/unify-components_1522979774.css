@@ -1524,6 +1524,7 @@ hr {
 
 .u-header__section:nth-child(1) {
     z-index: 5;
+    position: fixed;
 }
 
 .u-header__section:nth-child(2) {

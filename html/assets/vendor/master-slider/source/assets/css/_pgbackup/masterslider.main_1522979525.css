@@ -10,7 +10,6 @@
     position: relative;
     visibility: hidden;
     -moz-transform: translate3d(0 , 0 , 0);
-    padding-top: 7rem;
 }
 
 .ms-ie img {
@@ -199,6 +198,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    padding-top: 30%;
 }
 
 .ms-slide .ms-layer,
