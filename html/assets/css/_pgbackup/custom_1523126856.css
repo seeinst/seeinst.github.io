@@ -85,9 +85,11 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .second_slide_font {
-    font-family: Open Sans;
+    font-family: Calibri;
+    font-size: 80px;
 }
 
 .third_slide_font {
-    font-family: Lora;
+    font-family: "Times New Roman";
+    font-size: 78px;
 }

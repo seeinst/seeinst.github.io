@@ -71,23 +71,9 @@
     }
 }
 
-.hs-has-sub-menu > a::after,
-.pg-node-id-10 {
-    content: none;
+.hs-has-sub-menu > a::after, .pg-node-id-10{
+  content:none;
 }
-
-a#nav-link-pages.nav_hover_blue:hover {
-    color: #0073b1 !important;
-}
-
-.first_slide_font {
-    font-family: Arial;
-}
-
-.second_slide_font {
-    font-family: Open Sans;
-}
-
-.third_slide_font {
-    font-family: Lora;
+a#nav-link-pages.nav_hover_blue:hover{
+color:#0073b1 !important;
 }
