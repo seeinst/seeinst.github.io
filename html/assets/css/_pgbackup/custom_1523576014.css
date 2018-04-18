@@ -49,7 +49,7 @@
 }
 
 .header_white_text {
-    color: #efefef !important;
+    color: #efefef !important;
 }
 
 .hamburger_white_text {
@@ -57,9 +57,37 @@
 }
 
 .white_bg_header {
-    background-color: #fff;
+    background-color: rgb(255,255,255);
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 110px;
+    z-index: 9;
+}
+
+@media (max-width:767px) {
+    .slider_height_adj {
+        padding: ;
+    }
+}
+
+.hs-has-sub-menu > a::after,
+.pg-node-id-10 {
+    content: none;
+}
+
+a#nav-link-pages.nav_hover_blue:hover {
+    color: #0073b1 !important;
+}
+
+.first_slide_font {
+    font-family: Arial;
+}
+
+.second_slide_font {
+    font-family: Open Sans;
+}
+
+.third_slide_font {
+    font-family: Lora;
 }

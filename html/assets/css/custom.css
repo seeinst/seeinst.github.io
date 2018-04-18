@@ -71,8 +71,7 @@
     }
 }
 
-.hs-has-sub-menu > a::after,
-.pg-node-id-10 {
+.hs-has-sub-menu > a::after {
     content: none;
 }
 
@@ -90,4 +89,9 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .third_slide_font {
     font-family: Lora;
+}
+
+.search_icon {
+    padding: 1em;
+    font-weight: 700;
 }
