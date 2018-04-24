@@ -93,5 +93,6 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .search_icon {
     padding: 1em;
+    padding-left: 2em;
     font-weight: 700;
 }

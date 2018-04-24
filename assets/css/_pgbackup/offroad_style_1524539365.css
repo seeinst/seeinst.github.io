@@ -120,7 +120,7 @@
 .msp-cn-165-22 {
     font-family: "Oswald";
     font-weight: 600;
-    font-size: 82px;
+    font-size: 78px;
     line-height: normal;
     color: #ffffff;
     text-transform: none;
@@ -160,6 +160,7 @@
     font-size: 82px;
     line-height: 1em;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .msp-cn-165-27 {
