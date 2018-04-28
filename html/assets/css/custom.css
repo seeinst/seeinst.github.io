@@ -96,3 +96,10 @@ a#nav-link-pages.nav_hover_blue:hover {
     padding-left: 2em;
     font-weight: 700;
 }
+
+.aboutus_hero {
+    background-image: url('img/aboutus/aboutus_hero.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}

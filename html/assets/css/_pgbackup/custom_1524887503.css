@@ -49,7 +49,7 @@
 }
 
 .header_white_text {
-    color: #efefef !important;
+    color: #efefef !important;
 }
 
 .hamburger_white_text {
@@ -58,10 +58,48 @@
 
 .white_bg_header {
     background-color: rgb(255,255,255);
-    opacity: 1;
     position: fixed;
     top: 0;
     width: 100%;
     height: 110px;
-    opacity: 1;
+    z-index: 9;
+}
+
+@media (max-width:767px) {
+    .slider_height_adj {
+        padding: ;
+    }
+}
+
+.hs-has-sub-menu > a::after {
+    content: none;
+}
+
+a#nav-link-pages.nav_hover_blue:hover {
+    color: #0073b1 !important;
+}
+
+.first_slide_font {
+    font-family: Arial;
+}
+
+.second_slide_font {
+    font-family: Open Sans;
+}
+
+.third_slide_font {
+    font-family: Lora;
+}
+
+.search_icon {
+    padding: 1em;
+    padding-left: 2em;
+    font-weight: 700;
+}
+
+.aboutus_hero {
+    background-image: url('file:///Users/stepanlavrinenko/Documents/seeinst.github.io/img/aboutus/aboutus_hero.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
 }
