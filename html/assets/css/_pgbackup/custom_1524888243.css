@@ -98,13 +98,8 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .aboutus_hero {
-    background-image: url('../img/aboutus_hero.jpg');
-    height: 568px;
-    width: 100vw;
-    background-size: cover;
+    background-image: url('/img/aboutus/aboutus_hero.jpg');
+    height: 60vh;
     background-position: center;
-}
-
-.aboutus_margiun {
-    margin: 4em;
+    background-size: cover;
 }
