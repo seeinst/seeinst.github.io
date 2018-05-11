@@ -104,15 +104,10 @@ a#nav-link-pages.nav_hover_blue:hover {
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .aboutus_margiun {
     margin: 4em;
-}
-
-.quote_text_white {
-    color: #efefef;
-    font-size: 3em;
 }
