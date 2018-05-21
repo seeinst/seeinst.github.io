@@ -98,8 +98,29 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .aboutus_hero {
-    background-image: url('/img/aboutus/aboutus_hero.jpg');
-    height: 60vh;
+    background-image: url('aboutus_hero.jpg');
+    height: 568px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus_margiun {
+    margin: 4em;
+}
+
+.quote_text_white {
+    color: #efefef;
+    font-size: 3em;
+}
+
+.post_hero {
+    background-image: url('hero.jpg');
+    width: 100%;
     background-position: center;
     background-size: cover;
+    height: 429px;
 }
