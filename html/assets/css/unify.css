@@ -14731,7 +14731,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   color: #fff; }
 
 .u-pagination-v1-2--nav:hover {
-  background-color: rgba(114, 192, 44, 0.8); }
+  background-color: rgba(0, 120, 182,0.8); }
 
 /* Pagination Style v3 */
 .u-pagination-v1-3 {

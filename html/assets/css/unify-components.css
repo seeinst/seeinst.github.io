@@ -1590,7 +1590,7 @@ hr {
 }
 
 .js-header-change-moment.g-bg-primary-semi-transparent--shift {
-    background-color: rgba(114, 192, 44, 0.9);
+    background-color: rgba(0, 120, 182,0.8);
 }
 
 .u-header__section--light .navbar-brand,
@@ -26475,13 +26475,13 @@ img.u-block-hover__main--magnifier-top-left {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #6db82a;
-    border-color: #6db82a;
+    background-color: rgba(0, 120, 182,0.8);
+    border-color: rgba(0, 120, 182,1);
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-    box-shadow: 0 0 0 2px rgba(114, 192, 44, 0.5);
+    box-shadow: 0 0 0 2px rgba(0, 120, 182,0.8);
 }
 
 .btn-primary.disabled,
