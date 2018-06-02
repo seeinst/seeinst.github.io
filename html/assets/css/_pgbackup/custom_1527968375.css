@@ -154,11 +154,3 @@ a#nav-link-pages.nav_hover_blue:hover {
     padding: 1.5em;
     color: #efefef;
 }
-
-.home_slider_annotation {
-    font-size: 15px;
-    color: #bfbfbf;
-    text-align: right;
-    display: block;
-    line-height: 5px;
-}

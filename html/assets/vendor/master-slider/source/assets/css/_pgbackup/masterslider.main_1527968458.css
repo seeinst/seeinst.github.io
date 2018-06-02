@@ -206,8 +206,6 @@
 .ms-overlay-layers .ms-layer {
     position: absolute;
     pointer-events: auto;
-    width: 100%;
-    height: 100%;
 }
 
 .ms-layer-mask {

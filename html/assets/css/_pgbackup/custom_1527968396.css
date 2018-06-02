@@ -157,8 +157,6 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .home_slider_annotation {
     font-size: 15px;
-    color: #bfbfbf;
-    text-align: right;
-    display: block;
-    line-height: 5px;
+    right: 10px;
+    bottom: 10px;
 }
