@@ -95,7 +95,6 @@ a#nav-link-pages.nav_hover_blue:hover {
     padding: 1em;
     padding-left: 2em;
     font-weight: 700;
-    color: #bfbfbf;
 }
 
 .aboutus_hero {
@@ -169,7 +168,7 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .home_blue_bck_header {
-    background-color: rgb(0,120,182);
+    background-color: #0078B6;
     position: fixed;
     top: 0;
     width: 100%;

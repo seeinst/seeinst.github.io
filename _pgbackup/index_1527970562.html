@@ -33,22 +33,47 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora"> 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans"> 
     </head>     
-    <body id="skrollr-body"> 
+    <body> 
         <main> 
-            <!-- Header -->
-            <div data-0="opacity:0;" data-500="opacity:1;" class="home_blue_bck_header"></div>             
-            <header id="js-header" class="u-header u-header--static"> 
+            <!-- Header -->                          
+            <!-- End Header -->             
+            <!-- Breadcrumbs -->             
+            <div class="white_bg_header" data-0="opacity:0;" data-500="opacity:1;"></div>
+            <header id="js-header" class="u-header u-header--static top_header"> 
                 <div class="u-header__section u-header__section--light g-transition-0_3 g-py-10"> 
-                    <nav class="js-mega-menu navbar navbar-expand-lg"> 
+                    <ul class="list-inline text-center text-md-right mb-0 header_transparency"> 
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Youtube"> 
+                            <a class="g-color-aqua--hover" href="https://www.youtube.com/channel/UC3GeNki5-YcKVb9KYvLRcIQ"><i class="fa fa-youtube-play"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook"> 
+                            <a class="g-color-aqua--hover" href="https://www.facebook.com/seeinst"><i class="fa fa-facebook"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Linkedin"> 
+                            <a class="g-color-aqua--hover" href="https://www.linkedin.com/company/11422290/"><i class="fa fa-linkedin"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Skype"> 
+                            <a class="g-color-aqua--hover" href="skype:liveadmin_132614"><i class="fa fa-skype"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Instagram"> 
+                            <a class="g-color-aqua--hover" href="https://www.instagram.com/see_inst/"><i class="fa fa-instagram"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter"> 
+                            <a class="g-color-aqua--hover" href="https://twitter.com/seeinst"><i class="fa fa-twitter"></i></a> 
+                        </li>                         
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Dribbble"> 
+                            <a class="g-color-white-opacity-0_5 g-color-white--hover" href="#"></a> 
+                        </li>                         
+                    </ul>                     
+                    <nav class="js-mega-menu navbar navbar-expand-lg header_transparency"> 
                         <div class="container"> 
                             <!-- Responsive Toggle Button -->                             
-                            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar"> 
+                            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0 hamburger_white_text" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar"> 
                                 <span class="hamburger hamburger--slider"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span> 
                             </button>                             
                             <!-- End Responsive Toggle Button -->                             
                             <!-- Logo -->                             
                             <a class="navbar-brand" href="index.html"> 
-                                <img src="img/logo/logo.png" alt="Image Description"/> 
+                                <img src="img/logo/black_logo.png" alt="Image Description" class="brand_width"/> 
                             </a>                             
                             <!-- End Logo -->                             
                             <!-- Navigation -->                             
@@ -60,7 +85,7 @@
                                     <!-- End Home -->                                     
                                     <!-- Pages -->                                     
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut"> 
-                                        <a class="nav-link g-py-7 g-px-0 nav_hover_blue" id="nav-link-pages" href="https://www.seeinstitute.org/research" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">research areas</a> 
+                                        <a class="nav-link g-py-7 g-px-0 header_white_text header_transparency" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages" data-0="color:rgb(255,255,255);" data-500="color:rgb(85,85,85);">research areas</a> 
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages"> 
                                             <!--Pages - About-->                                             
                                             <li class="dropdown-item hs-has-sub-menu"> 
@@ -138,7 +163,7 @@
                                         </ul>                                         
                                     </li>                                     
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut"> 
-                                        <a class="nav-link g-py-7 g-px-0 nav_hover_blue" id="nav-link-pages" href="https://www.seeinstitute.org/infographics" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">inforgraphics</a> 
+                                        <a class="nav-link g-py-7 g-px-0 header_white_text" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages" data-0="color:rgb(255,255,255);" data-500="color:rgb(85,85,85);">inforgraphics</a> 
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages"> 
                                             <!--Pages - About-->                                             
                                             <li class="dropdown-item hs-has-sub-menu"> 
@@ -216,7 +241,7 @@
                                         </ul>                                         
                                     </li>                                     
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut"> 
-                                        <a class="nav-link g-py-7 g-px-0 nav_hover_blue" id="nav-link-pages" href="https://www.seeinstitute.org/critiques" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">critiques&nbsp;</a> 
+                                        <a class="nav-link g-py-7 g-px-0 header_white_text" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages" data-0="color:rgb(255,255,255);" data-500="color:rgb(85,85,85);">critiques&nbsp;</a> 
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages"> 
                                             <!--Pages - About-->                                             
                                             <li class="dropdown-item hs-has-sub-menu"> 
@@ -294,7 +319,7 @@
                                         </ul>                                         
                                     </li>                                     
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut"> 
-                                        <a class="nav-link g-py-7 g-px-0 nav_hover_blue" id="nav-link-pages" href="https://www.seeinstitute.org/media" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">media and events</a> 
+                                        <a class="nav-link g-py-7 g-px-0 header_white_text" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages" data-0="color:rgb(255,255,255);" data-500="color:rgb(85,85,85);">media and events</a> 
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages"> 
                                             <!--Pages - About-->                                             
                                             <li class="dropdown-item hs-has-sub-menu"> 
@@ -372,7 +397,7 @@
                                         </ul>                                         
                                     </li>                                     
                                     <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut"> 
-                                        <a class="nav-link g-py-7 g-px-0 nav_hover_blue" id="nav-link-pages" href="https://www.seeinstitute.org/aboutus" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">ABOUT US</a> 
+                                        <a class="nav-link g-py-7 g-px-0 header_white_text" id="nav-link-pages" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages" data-0="color:rgb(255,255,255);" data-500="color:rgb(85,85,85);">ABOUT US</a> 
                                         <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-21 g-mt-11--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages"> 
                                             <!--Pages - About-->                                             
                                             <li class="dropdown-item hs-has-sub-menu"> 
@@ -462,19 +487,14 @@
                             </div>                             
                             <!-- End Navigation -->                             
                             <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg"> 
-                                <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" data-0="background-color:rgb(0,120,182); color:rgb(255,255,255);" data-500="background-color:rgb(255,255,255); color:rgb(0,120,182)" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WZL269YJZYM4Q" target="_blank">DONATE</a> 
-                            </div>                             
-                            <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg"> 
-                                <i class="fa fa-search search_icon" data-0="color:rgb(255,255,255);" data-500=" color:rgb(0,120,182)"></i> 
+                                <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WZL269YJZYM4Q" target="_blank">DONATE</a> 
                             </div>                             
                             <div class="d-inline-block g-hidden-xs-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg"> 
 </div>                             
                         </div>                         
                     </nav>                     
                 </div>                 
-            </header>             
-            <!-- End Header -->             
-            <!-- Breadcrumbs -->             
+            </header>
             <div id="masterslider" class="master-slider ms-skin-default slider_height_adj"> 
                 <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide1"> 
                     <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/small_slider/slide1.png"/>
@@ -958,10 +978,6 @@
         <script src="html/assets/js/components/hs.go-to.js"></script>         
         <!-- JS Master Slider -->         
         <script src="html/assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>         
-        <!-- skrollr -->         
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>         
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>         
-        <script type="text/javascript" src="js/skrollr_animation.js"></script>         
         <!-- JS Customization -->         
         <script src="html/assets/js/custom.js"></script>         
         <script>

@@ -607,6 +607,10 @@
 }
 
 /* White Colors */
+.g-bg-white {
+    background-color: #fff !important;
+}
+
 .g-bg-white--before::before,
 .g-bg-white--after::after {
     background-color: #fff !important;
