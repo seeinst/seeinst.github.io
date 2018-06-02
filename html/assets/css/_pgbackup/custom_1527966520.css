@@ -104,10 +104,53 @@ a#nav-link-pages.nav_hover_blue:hover {
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: flex-end;
+    flex-flow: column;
+    align-items: center;
     justify-content: center;
 }
 
 .aboutus_margiun {
     margin: 4em;
+}
+
+.quote_text_white {
+    color: #efefef;
+    font-size: 3em;
+}
+
+.post_hero {
+    background-image: url('hero.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 429px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutsus_title {
+    padding-top: 100px;
+}
+
+.aboutus_accordion {
+    width: 80% !important;
+    padding: 20px;
+}
+
+.aboutus_contactform_header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0078B6;
+    margin-bottom: 1.8em;
+}
+
+.aboutus_contactform_h2 {
+    padding: 1.5em;
+    color: #efefef;
 }
