@@ -140,17 +140,3 @@ a#nav-link-pages.nav_hover_blue:hover {
     width: 80% !important;
     padding: 20px;
 }
-
-.aboutus_contactform_header {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0078B6;
-    margin-bottom: 1.8em;
-}
-
-.aboutus_contactform_h2 {
-    padding: 1.5em;
-    color: #efefef;
-}
