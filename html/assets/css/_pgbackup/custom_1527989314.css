@@ -95,6 +95,7 @@ a#nav-link-pages.nav_hover_blue:hover {
     padding: 1em;
     padding-left: 2em;
     font-weight: 700;
+    color: rgb(95,95,95);
 }
 
 .aboutus_hero {
@@ -104,6 +105,7 @@ a#nav-link-pages.nav_hover_blue:hover {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
 }
@@ -138,4 +140,39 @@ a#nav-link-pages.nav_hover_blue:hover {
 .aboutus_accordion {
     width: 80% !important;
     padding: 20px;
+}
+
+.aboutus_contactform_header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0078B6;
+    margin-bottom: 1.8em;
+}
+
+.aboutus_contactform_h2 {
+    padding: 1.5em;
+    color: #efefef;
+}
+
+.home_slider_annotation {
+    font-size: 15px;
+    color: #bfbfbf;
+    text-align: right;
+    display: block;
+    line-height: 5px;
+}
+
+.post_header_centered {
+    text-align: center;
+}
+
+.home_blue_bck_header {
+    background-color: rgb(0,120,182);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 9;
 }

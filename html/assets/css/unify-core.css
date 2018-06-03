@@ -23,7 +23,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #66ab27; }
+  color: rgba(0,120,182,0.6); }
 
 .nav-link {
   color: #555; }
