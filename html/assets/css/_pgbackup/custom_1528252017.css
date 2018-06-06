@@ -149,11 +149,10 @@ a#nav-link-pages.nav_hover_blue:hover {
     align-items: center;
     background-color: #0078B6;
     margin-bottom: 1.8em;
-    padding: 5px;
 }
 
 .aboutus_contactform_h2 {
-    padding: 0.5em;
+    padding: 1.5em;
     color: #efefef;
 }
 
@@ -194,9 +193,4 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .p_hero {
     font-size: 1.1rem;
-}
-
-.header_bck_color {
-    background-color: white;
-    border-bottom: 2px solid #bfbfbf;
 }

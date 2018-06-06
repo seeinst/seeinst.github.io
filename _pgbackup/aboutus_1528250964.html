@@ -25,6 +25,8 @@
         <!-- Master Slider -->         
         <link rel="stylesheet" href="html/assets/vendor/master-slider/source/assets/css/masterslider.main.css"> 
         <link rel="stylesheet" href="assets/css/offroad_style.css"> 
+        <!-- Process carousel -->         
+        <link rel="stylesheet" href="html/assets/vendor/slick-carousel/slick/slick.css"> 
         <!-- CSS Customization -->         
         <link rel="stylesheet" href="html/assets/css/custom.css"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
@@ -37,7 +39,7 @@
         <main> 
             <!-- Header -->             
             <header id="js-header" class="u-header u-header--static"> 
-                <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10 header_bck_color"> 
+                <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10"> 
                     <nav class="js-mega-menu navbar navbar-expand-lg"> 
                         <div class="container"> 
                             <!-- Responsive Toggle Button -->                             
@@ -474,293 +476,431 @@
             </header>             
             <!-- End Header -->             
             <!-- Breadcrumbs -->             
-            <div id="masterslider" class="master-slider ms-skin-default slider_height_adj"> 
-                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide1"> 
-                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/small_slider/slide1.png" />
-                    <div class="ms-layer msp-cn-165-26 first_slide_font" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">SEE Institute</div>
-                    <div class="ms-layer msp-cn-165-28" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal"> 
-                        <span style="font-weight: light !important;" class="first_slide_font"></span> 
-                    </div>
-                    <div class="ms-layer msp-cn-165-28" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="-20" data-offset-y="450" data-origin="tl" data-position="normal">
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation">Taxi farm, Marina,</p>
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation">Lagos Nigeria</p>
-                    </div>                     
-                    <div class="ms-layer msp-cn-165-27 slider_small_text first_slide_font" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal">Reimagining African Energy Solutions</div>                     
-                </div>
-                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide3"> 
-                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/small_slider/slide4.jpg" /> 
-                    <div class="ms-layer msp-cn-165-22 first_slide_font" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">Refined Petroleum products</div>                     
-                    <div class="ms-layer msp-cn-165-24 slider_small_text first_slide_font" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal">Learn more</div>                     
-                    <div class="ms-layer msp-cn-165-23" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="404" data-origin="tl" data-position="normal"></div>                     
-                    <div class="ms-layer msp-cn-165-28" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="-20" data-offset-y="450" data-origin="tl" data-position="normal">
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation"> Offshore Oil Platform,</p>
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation">off Golf Coast, Atlantic</p>
-                    </div>                     
-                </div>                 
-                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide3"> 
-                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/small_slider/slide5.jpg" /> 
-                    <div class="ms-layer msp-cn-165-22 first_slide_font" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">Waste to energy</div>                     
-                    <div class="ms-layer msp-cn-165-24 slider_small_text first_slide_font" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal">Learn more</div>                     
-                    <div class="ms-layer msp-cn-165-23" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="404" data-origin="tl" data-position="normal"></div>                     
-                    <div class="ms-layer msp-cn-165-28" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="-20" data-offset-y="450" data-origin="tl" data-position="normal">
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation">Waste to energy plant, </p>
-                        <p style="font-weight: light !important;" class="first_slide_font home_slider_annotation">Esbjerg, Denmark</p>
-                    </div>                     
-                </div>                 
-            </div>             
-            <!-- End Breadcrumbs -->             
-            <!-- Blog Grid Overlap Blocks -->             
-            <div class="g-pt-100 g-pb-20 main_content_container"> 
-                <div class="container"> 
-                    <div class="row justify-content-between"> 
-                        <div class="col-lg-9 g-mb-80"> 
-                            <div class="g-pr-20--lg"> 
-                                <!-- Blog Minimal Blocks -->                                 
-                                <article class="g-mb-100"> 
-                                    <div class="g-mb-30"> 
-                                        <div class="media g-mb-25"> 
-                                            <img class="d-flex g-width-40 g-height-40 rounded-circle mr-2" src="html/assets/img-temp/100x100/img7.jpg" alt="Image Description" /> 
-                                            <div class="media-body"> 
-                                                <h4 class="h6 g-color-primary mb-0"><a href="#">Alex Teseira</a></h4> 
-                                                <span class="d-block g-color-gray-dark-v4 g-font-size-12">May 31 2017 - 5 min read</span> 
-                                            </div>                                             
-                                        </div>                                         
-                                        <img class="img-fluid w-100 g-mb-25" src="html/assets/img-temp/740x380/img1.jpg" alt="Image Description" /> 
-                                        <h2 class="h4 g-color-black g-font-weight-600 mb-3"><a class="u-link-v5 g-color-black g-color-primary--hover" href="#">Exclusive interview with Afica-EU council CEO</a></h2> 
-                                        <p class="g-color-gray-dark-v4 g-line-height-1_8">On the eve of the EU-Africa Summit on Migration that is taking place today and tomorrow in Valletta (Malta), the EU High Representative for Foreign Affairs and Security has released to Vita International...</p> 
-                                        <a class="g-font-size-13" href="#">Read more...</a> 
-                                    </div>                                     
-                                    <ul class="d-flex justify-content-end list-inline g-brd-y g-brd-gray-light-v3 g-font-size-13 g-py-13 mb-0"> 
-                                        <li class="list-inline-item mr-auto"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-medical-022 u-line-icon-pro"></i> 
-                                            <a class="g-color-gray-dark-v4 g-color-primary--hover g-transition-0_3 g-text-underline--none--hover" href="#">5k</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item mr-4"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-finance-206 u-line-icon-pro"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">10 Comments</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 fa fa-bookmark-o"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">Bookmark</a> 
-                                        </li>                                         
-                                    </ul>                                     
-                                </article>                                 
-                                <!-- End Blog Minimal Blocks -->                                 
-                                <!-- Blog Minimal Blocks -->                                 
-                                <article class="g-mb-100"> 
-                                    <div class="g-mb-30"> 
-                                        <div class="media g-mb-25"> 
-                                            <img class="d-flex g-width-40 g-height-40 rounded-circle mr-2" src="html/assets/img-temp/100x100/img5.jpg" alt="Image Description" /> 
-                                            <div class="media-body"> 
-                                                <h4 class="h6 g-color-primary mb-0"><a href="#">Sara Kajevnikova</a></h4> 
-                                                <span class="d-block g-color-gray-dark-v4 g-font-size-12">June 1 2017 - 8 min read</span> 
-                                            </div>                                             
-                                        </div>                                         
-                                        <img class="img-fluid w-100 g-mb-25" src="html/assets/img-temp/740x380/img2.jpg" alt="Image Description" /> 
-                                        <h2 class="h4 g-color-black g-font-weight-600 mb-3"><a class="u-link-v5 g-color-black g-color-primary--hover" href="#">Canadian Energy Policy Explained</a></h2> 
-                                        <p class="g-color-gray-dark-v4 g-line-height-1_8">Canada also has international responsibilities to deal with issues as they relate to energy. Since energy is a globally traded commodity, trade issues and the emissions associated with the production and use of energy are the subject of many international agreements.</p> 
-                                        <a class="g-font-size-13" href="#">Read more...</a> 
-                                    </div>                                     
-                                    <ul class="d-flex justify-content-end list-inline g-brd-y g-brd-gray-light-v3 g-font-size-13 g-py-13 mb-0"> 
-                                        <li class="list-inline-item mr-auto"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-medical-022 u-line-icon-pro"></i> 
-                                            <a class="g-color-gray-dark-v4 g-color-primary--hover g-transition-0_3 g-text-underline--none--hover" href="#">3.3k</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item mr-4"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-finance-206 u-line-icon-pro"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">8 Comments</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 fa fa-bookmark-o"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">Bookmark</a> 
-                                        </li>                                         
-                                    </ul>                                     
-                                </article>                                 
-                                <!-- End Blog Minimal Blocks -->                                 
-                                <!-- Blog Minimal Blocks -->                                 
-                                <article class="g-mb-100"> 
-                                    <div class="g-mb-30"> 
-                                        <div class="media g-mb-25"> 
-                                            <img class="d-flex g-width-40 g-height-40 rounded-circle mr-2" src="html/assets/img-temp/100x100/img7.jpg" alt="Image Description" /> 
-                                            <div class="media-body"> 
-                                                <h4 class="h6 g-color-primary mb-0"><a href="#">Alex Teseira</a></h4> 
-                                                <span class="d-block g-color-gray-dark-v4 g-font-size-12">June 2 2017 - 4 min read</span> 
-                                            </div>                                             
-                                        </div>                                         
-                                        <img class="img-fluid w-100 g-mb-25" src="html/assets/img-temp/740x380/img3.jpg" alt="Image Description" /> 
-                                        <h2 class="h4 g-color-black g-font-weight-600 mb-3"><a class="u-link-v5 g-color-black g-color-primary--hover" href="#">Annual Conference of the Canadian Association of African Studies (CAAS)</a></h2> 
-                                        <p class="g-color-gray-dark-v4 g-line-height-1_8">From 4-6 May 2018 CAAS is convening in Kingston at Queen’s University under the banner “Transformations in African Environments” (a very broad theme, indeed, designed not just to provide some focus but also to help us in the funding application process!). </p> 
-                                        <a class="g-font-size-13" href="#">Read more...</a> 
-                                    </div>                                     
-                                    <ul class="d-flex justify-content-end list-inline g-brd-y g-brd-gray-light-v3 g-font-size-13 g-py-13 mb-0"> 
-                                        <li class="list-inline-item mr-auto"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-medical-022 u-line-icon-pro"></i> 
-                                            <a class="g-color-gray-dark-v4 g-color-primary--hover g-transition-0_3 g-text-underline--none--hover" href="#">2.1k</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item mr-4"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 icon-finance-206 u-line-icon-pro"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">2 Comments</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item"> 
-                                            <i class="align-middle g-color-primary g-font-size-default mr-1 fa fa-bookmark-o"></i> 
-                                            <a class="d-inline-block g-color-gray-dark-v4 g-text-underline--none--hover" href="#">Bookmark</a> 
-                                        </li>                                         
-                                    </ul>                                     
-                                </article>                                 
-                                <!-- End Blog Minimal Blocks -->                                 
-                                <!-- Pagination -->                                 
-                                <nav id="stickyblock-end" class="text-center" aria-label="Page Navigation"> 
-                                    <ul class="list-inline"> 
-                                        <li class="list-inline-item float-left g-hidden-xs-down"> 
-                                            <a class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left g-mr-5"></i> Previous</span><span class="sr-only">Previous</span></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item"> 
-                                            <a class="u-pagination-v1__item u-pagination-v1-4 u-pagination-v1-4--active g-rounded-50 g-pa-7-14" href="#">1</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item"> 
-                                            <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14" href="#">2</a> 
-                                        </li>                                         
-                                        <li class="list-inline-item float-right g-hidden-xs-down"> 
-                                            <a class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16" href="#" aria-label="Next"><span aria-hidden="true"> 
-                      Next <i class="fa fa-angle-right g-ml-5"></i></span><span class="sr-only">Next</span></a> 
-                                        </li>                                         
-                                    </ul>                                     
-                                </nav>                                 
-                                <!-- End Pagination -->                                 
+            <section class="aboutus_hero"> 
+                <h3 class="quote_text_white aboutsus_title">ABOUT US</h3>
+                <section class="aboutus_margiun"> 
+                    <div class="container"> 
+                        <div class="row"> 
+                            <div class="col-lg"> 
+                                <p style="color: #bfbfbf;">"We are a non for-profit think tank, with a mission to drive and support positive transformations in Africa's energy industry through in depth analysis and thought leadership.</p> 
+                                <p style="color: #bfbfbf;">We challenge the established norms and perceptions of Africa’s energy sector, through dialogue with influential stakeholders.</p> 
+                                <p style="color: #bfbfbf;">We aim to bridge the energy knowledge gap within, and about Africa, by informing on viable opportunities and pragmatic solutions to pressing challenges in Africa's energy industry."</p> 
                             </div>                             
                         </div>                         
-                        <div class="col-lg-3 g-brd-left--lg g-brd-gray-light-v4 g-mb-80"> 
-                            <div class="g-pl-20--lg"> 
-                                <!-- Links -->                                 
-                                <!-- End Links -->                                 
-                                <div class="js-sticky-block g-sticky-block--lg g-pt-50" id="stickyblock-start" data-start-point="#stickyblock-start" data-end-point="#stickyblock-end"> 
-                                    <!--Publications-->                                     
-                                    <div id="mc_embed_signup"> 
-                                        <form class="validate" id="mc-embedded-subscribe-form" action="https://seeinstitute.us17.list-manage.com/subscribe/post?u=c75a479d8e65c57f3d753e2f6&amp;amp;id=869318b76d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate"> 
-                                            <div id="mc_embed_signup_scroll"> 
-                                                <h3 class="h5 g-color-black g-font-weight-600 mb-4">Newsletter</h3> 
-                                                <div class="indicates-required"> 
-                                                    <span class="asterisk"></span> 
-                                                </div>                                                 
-                                                <div class="mc-field-group"></div>                                                 
-                                                <div class="input-group"> 
-                                                    <input class="button btn u-btn-primary g-rounded-left-50 g-py-13 g-px-20" id="mc-embedded-subscribe" type="submit" value="Go" name="subscribe" /> 
-                                                    <input class="required email form-control g-brd-primary g-placeholder-gray-dark-v5 border-left-0 g-rounded-right-50 g-px-15" id="mce-EMAIL" type="email" value="Enter your email" name="EMAIL" /> 
-                                                    <label for="mce-EMAIL"> 
-                                                        <span class="asterisk"></span> 
-                                                    </label>                                                     
-                                                </div>                                                 
-                                                <div class="clear" id="mce-responses"> 
-                                                    <div class="response" id="mce-error-response" style="display:none;"></div>                                                     
-                                                    <div class="response" id="mce-success-response" style="display:none;"></div>                                                     
-                                                </div>                                                 
-                                                <!--real people should not fill this in and expect good things - do not remove this or risk form bot signups-->                                                 
-                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"> 
-                                                    <input type="text" name="b_c75a479d8e65c57f3d753e2f6_869318b76d" tabindex="-1" value="" /> 
-                                                </div>                                                 
-                                                <div class="clear"> </div>                                                 
+                    </div>                     
+                </section>                 
+            </section>             
+            <br /> 
+            <section class="aboutus_margiun"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-lg"> 
+                            <h3>MISSION STATEMENT</h3> 
+                            <p>Our mission is to drive and support positive transformations in Africa’s energy industry through in-depth analysis and thought leadership. We aim to bridge the energy knowledge gap within, and about Africa, by informing on viable opportunities and pragmatic solutions to pressing challenges in Africa’s energy industry.</p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <div class="shortcode-styles"> 
+                <!-- CSS Implementing Plugins -->                 
+                <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css"> 
+            </div>             
+            <div class="shortcode-scripts"> 
+                <!-- JS Implementing Plugins -->                 
+                <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>                 
+                <!-- JS Unify -->                 
+                <script src="../../assets/js/components/hs.carousel.js"></script>                 
+                <!-- JS Plugins Init. -->                 
+                <script> $(document).ready(function () { // initialization of carousel $.HSCore.components.HSCarousel.init('[class*="js-carousel"]'); }); </script>                 
+            </div>             
+            <section class="aboutus_margiun"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-lg"> 
+                            <h3>CORE VALUES</h3> 
+                            <p><strong>Social Impact:</strong> The SEE Institute at its core, is committed to the socio-economic development of the African continent, by meaningfully contributing to its energy policies. As Africa’s population continues to rise exponentially, ensuring the sustained growth of its economies is of utmost importance. In this light, the institute will share its intellectual capital openly and work with stakeholders towards achieving shared goals.</p> 
+                            <p><strong>Integrity:</strong> We are committed to providing non-partisan, unbiased and objective viewpoints on African energy issues. As the institute is a non-for-profit organization, it receives funding from a multitude of sources. To ensure that we continue to operate with the highest levels of integrity and transparency, entities that provide grants and funding to the institute, will be made public.</p> 
+                            <p><strong>Excellence:</strong> Considering the potential economic and social implications of our work, SEE is committed to excellence in every aspect of its operations. We are committed to ensuring that our viewpoints are backed up with factual and accurate evidence, that emanate from verifiable sources of high integrity.</p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section> 
+                <section class="container g-pt-30"> 
+                    <div class="text-center g-mb-50"> 
+                        <h2 class="h4 g-mb-0">OUR HISTORY </h2> 
+                    </div>                     
+                    <div id="shortcode1"> 
+                        <div class="shortcode-html"> 
+                            <!-- Dynamic Process -->                             
+                            <div id="carousel1" class="js-carousel" data-infinite="true"> 
+                                <div class="js-slide g-pt-70 g-pt-150--sm" data-title="2011 <br/>Conception"> 
+                                    <!-- Dynamic Process -->                                     
+                                    <div class="row no-gutters"> 
+                                        <div class="g-bg-black g-pa-60 g-pa-100--sm col-lg-12"> 
+                                            <h3 class="h4 g-color-white g-font-weight-700 g-mb-25">Conception</h3> 
+                                            <div class="g-mb-50"> 
+                                                <p class="g-color-white-opacity-0_7 g-mb-30">&nbsp;in the frigid winter of 2011, motivated by a guest lecture at the University of Alberta School of Business, Babatunde Olateju conceived the idea of a Think Tank that would address the energy, economic and development hurdles facing the African continent. In partnership with his friend and graduate school colleague Abdul Abdurrahman, they decided to advance this idea into the realm of reality. However, after concerted efforts, a multitude of iterations, permutations and joint ventures, ultimately, they failed. However, the story didn't end there.</p> 
                                             </div>                                             
-                                        </form>                                         
+                                        </div>                                         
                                     </div>                                     
-                                    <hr class="g-brd-gray-light-v4 g-my-50" /> 
-                                    <ul class="list-inline text-center text-md-right mb-0"> 
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Youtube"> 
-                                            <a class="g-color-aqua--hover" href="https://www.youtube.com/channel/UC3GeNki5-YcKVb9KYvLRcIQ"><i class="fa fa-youtube-play"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook"> 
-                                            <a class="g-color-aqua--hover" href="https://www.facebook.com/seeinst"><i class="fa fa-facebook"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Linkedin"> 
-                                            <a class="g-color-aqua--hover" href="https://www.linkedin.com/company/11422290/"><i class="fa fa-linkedin"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Skype"> 
-                                            <a class="g-color-aqua--hover" href="skype:liveadmin_132614"><i class="fa fa-skype"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Instagram"> 
-                                            <a class="g-color-aqua--hover" href="https://www.instagram.com/see_inst/"><i class="fa fa-instagram"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter"> 
-                                            <a class="g-color-aqua--hover" href="https://twitter.com/seeinst"><i class="fa fa-twitter"></i></a> 
-                                        </li>                                         
-                                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Dribbble"> 
-                                            <a class="g-color-white-opacity-0_5 g-color-white--hover" href="#"></a> 
-                                        </li>                                         
-                                    </ul>                                     
-                                    <hr class="g-brd-gray-light-v4 g-my-50" /> 
-                                    <div class="g-mb-50"> 
-                                        <h3 class="h5 g-color-black g-font-weight-600 mb-4">Topics</h3> 
-                                        <ul class="list-unstyled g-font-size-13 mb-0"> 
-                                            <li> 
-                                                <article class="media g-mb-35"> 
-                                                    <img class="d-flex g-width-40 g-height-40 rounded-circle mr-3" src="html/assets/img-temp/100x100/img1.jpg" alt="Image Description" /> 
-                                                    <div class="media-body"> 
-                                                        <h4 class="h6 g-color-black g-font-weight-600">Research Practices</h4> 
-                                                        <p class="g-color-gray-dark-v4">A review of global research practices </p> 
-                                                    </div>                                                     
-                                                </article>                                                 
+                                    <!-- End Dynamic Process -->                                     
+                                </div>                                 
+                                <div class="js-slide g-pt-70 g-pt-150--sm" data-title="2015 <br/> Team Formation"> 
+                                    <!-- Dynamic Process -->                                     
+                                    <div class="row no-gutters"> 
+                                        <div class="g-bg-black g-pa-60 g-pa-100--sm col-lg-12"> 
+                                            <h3 class="h4 g-color-white g-font-weight-700 g-mb-25">Team formation</h3> 
+                                            <div class="g-mb-50"> 
+                                                <p class="g-color-white-opacity-0_7 g-mb-30">In the midst of their habitual and spirited debates about the potential of the African continent, the idea of the Think Tank resurfaced in Abdul's Calgary apartment. While the shadows of their past failures remained overcast in their minds, there was a renewed sense of optimism. Semiu, a friend and colleague of Babatunde during their undergraduate studies, had joined their intellectual fraternity and strengthened their collective capabilities. Together, with their shared passion for energy and development in Africa, they collaborated and co-founded the SEE Institute.</p> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <!-- End Dynamic Process -->                                     
+                                </div>                                 
+                                <div class="js-slide g-pt-70 g-pt-150--sm" data-title="2016 <br/> Non-Profit Registration"> 
+                                    <!-- Dynamic Process -->                                     
+                                    <div class="row no-gutters"> 
+                                        <div class="g-bg-black g-pa-60 g-pa-100--sm col-lg-12"> 
+                                            <h3 class="h4 g-color-white g-font-weight-700 g-mb-25">Non-profit registration</h3> 
+                                            <div class="g-mb-50"> 
+                                                <p class="g-color-white-opacity-0_7 g-mb-30">The institute was formally registered as a non-for-profit energy think tank in Canada, and the story continues to unfold.</p> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <!-- End Dynamic Process -->                                     
+                                </div>                                 
+                            </div>                             
+                            <!-- End Dynamic Process -->                             
+                        </div>                         
+                        <div class="shortcode-styles"> 
+                            <!-- CSS Implementing Plugins -->                             
+                            <link type="text/plain" rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css"> 
+                        </div>                         
+                        <div class="shortcode-scripts"> 
+                            <!-- JS Implementing Plugins -->                             
+                            <script type="text/plain" src="../../assets/vendor/slick-carousel/slick/slick.js"></script>                             
+                            <!-- JS Unify -->                             
+                            <script type="text/plain" src="../../assets/js/components/hs.carousel.js"></script>                             
+                            <!-- JS Plugins Init. -->                             
+                            <script type="text/plain">
+                  $(document).ready(function () {
+                    $.HSCore.components.HSCarousel.init('.js-carousel');
+
+                    $('#carousel1').slick('setOption', 'dots', true, true);
+                    $('#carousel1').slick('setOption', 'dotsClass', 'js-pagination u-carousel-indicators-v30 g-pos-abs g-top-0', true);
+                    $('#carousel1').slick('setOption', 'customPaging', function (slider, i) {
+                      var title = $(slider.$slides[i]).data('title');
+
+                      return '<i class="u-dot-line-v1 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2 g-brd-primary--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+                    }, true);
+                  });
+                </script>                             
+                        </div>                         
+                    </div>                     
+                    <!-- Show Code -->                     
+                    <!-- End Show Code -->                     
+                </section>                 
+            </section>             
+            <section class="aboutus_margiun"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-lg"> 
+                            <h3>OUR TEAM</h3> 
+                            <p>The SEE Institute is led by a team of energy intellectuals who possess a global consciousness of the prevailing energy issues and opportunities, yet remain grounded in the complexities and trends, pertinent to Africa’s energy sector.</p> 
+                            <p>Meet our team of dedicated co-founders:</p> 
+                        </div>                         
+                    </div>                     
+                    <div class="shortcode-html"> 
+                        <!-- Team Block -->                         
+                        <div class="row"> 
+                            <div id="accordion-05-body-02" class="collapse aboutus_accordion" role="tabpanel" aria-labelledby="accordion-05-heading-02" data-parent="#accordion-05"> 
+                                <div class="u-accordion__body g-color-white-opacity-0_8 g-pa-0-20-20"> This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key. Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion. </div>                                 
+                            </div>                             
+                            <div class="g-mb-30 col-lg-4 col-sm-12"> 
+                                <!-- Team Block -->                                 
+                                <div class="u-info-v6-1"> 
+                                    <!-- Figure -->                                     
+
+                                    <figure class="u-block-hover"> 
+                                        <!-- Figure Image -->                                         
+                                        <img class="w-100" src="img/aboutus/abdul.png" alt="Image Description"> 
+                                        <!-- End Figure Image-->                                         
+                                        <!-- Figure Caption -->                                         
+                                        <!-- End Figure Caption -->                                         
+                                    </figure>                                     
+
+                                    <!-- End Figure -->                                     
+
+                                    <!-- Figure Info -->                                     
+
+                                    <div class="g-bg-white g-pa-25"> 
+                                        <div class="g-mb-15"> 
+                                            <h4 class="h5 g-color-black g-mb-5">Abdul Abdurrahman</h4> 
+                                            <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Founder</em> 
+                                        </div>
+                                        <ul class="list-unstyled g-color-gray-dark-v5"> 
+                                            <li class="g-font-size-12"> 
+                                                <strong>Email:</strong> abdul.abdurrahman@seeinstitute.org
                                             </li>                                             
-                                            <li> 
-                                                <article class="media g-mb-35"> 
-                                                    <img class="d-flex g-width-40 g-height-40 rounded-circle mr-3" src="html/assets/img-temp/100x100/img3.jpg" alt="Image Description" /> 
-                                                    <div class="media-body"> 
-                                                        <h4 class="h6 g-color-black g-font-weight-600">Building The Connections To Canadian Energy</h4> 
-                                                        <p class="g-color-gray-dark-v4">An overview of events, upcoming conferences and talks</p> 
-                                                    </div>                                                     
-                                                </article>                                                 
+                                        </ul>
+                                        <ul class="list-inline g-flex-centered"> 
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://twitter.com/abdulmalik2801"> <i class="fa fa-twitter"></i></a> 
                                             </li>                                             
-                                            <li> 
-                                                <article class="media"> 
-                                                    <img class="d-flex g-width-40 g-height-40 rounded-circle mr-3" src="html/assets/img-temp/100x100/img2.jpg" alt="Image Description" /> 
-                                                    <div class="media-body"> 
-                                                        <h4 class="h6 g-color-black g-font-weight-600">Inside Africa</h4> 
-                                                        <p class="g-color-gray-dark-v4">Energy news and events</p> 
-                                                    </div>                                                     
-                                                </article>                                                 
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://www.linkedin.com/in/enigneerabdulmalik"> <i class="fa fa-linkedin"></i></a> 
                                             </li>                                             
                                         </ul>                                         
                                     </div>                                     
-                                    <!--End Publications-->                                     
-                                    <hr class="g-brd-gray-light-v4 g-my-50" /> 
-                                    <!--Tags-->                                     
-                                    <div class="g-mb-40"> 
-                                        <h3 class="h5 g-color-black g-font-weight-600 mb-4">Tags</h3> 
-                                        <ul class="u-list-inline mb-0"> 
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Africa</a> 
+
+                                    <div class="card rounded-0 g-bg-primary g-color-white g-brd-none">
+                                        <div class="g-pa-20" id="accordion-05-heading-02" role="tab">
+                                            <h5 class="mb-0 text-uppercase g-font-size-default g-font-weight-700"><a class="d-block collapsed g-color-white g-text-underline--none--hover" href="#modal1" data-modal-target="#modal1" data-modal-effect="fadein"> <span class="u-accordion__control-icon g-mr-10"> <i class="fa fa-plus"></i> <i class="fa fa-minus"></i> </span>Read bio</a></h5>
+                                            <button type="button" class="d-block collapsed g-color-white g-text-underline--none--hover" data-toggle="modal" data-target="#myModal"><h5 class="mb-0 text-uppercase g-font-size-default g-font-weight-700">READ BIO</h5></button>
+
+                                        </div>
+                                    </div>
+                                    <div id="myModal" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Modal Header</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Some text in the modal.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                            </div>
+
+                                        </div>
+                                    </div>                                  
+
+                                    <!-- End Figure Info-->                                     
+                                </div>                                 
+                                <!-- End Team Block -->                                 
+                            </div>                             
+                            <div class="g-mb-30 col-lg-4 col-sm-12"> 
+                                <!-- Team Block -->                                 
+                                <div class="u-info-v6-1"> 
+                                    <!-- Figure -->                                     
+                                    <figure class="u-block-hover"> 
+                                        <!-- Figure Image -->                                         
+                                        <img class="w-100" src="img/aboutus/tunde.png" alt="Image Description"> 
+                                        <!-- End Figure Image-->                                         
+                                        <!-- Figure Caption -->                                         
+                                        <!-- End Figure Caption -->                                         
+                                    </figure>                                     
+                                    <!-- End Figure -->                                     
+                                    <!-- Figure Info -->                                     
+                                    <div class="g-bg-white g-pa-25"> 
+                                        <div class="g-mb-15"> 
+                                            <h4 class="h5 g-color-black g-mb-5">Babatunde Olateju</h4> 
+                                            <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Founder</em> 
+                                        </div>                                         
+                                        <ul class="list-unstyled g-color-gray-dark-v5"> 
+                                            <li class="g-font-size-12"> 
+                                                <strong>Email:</strong> babatunde.olateju@seeinstitute.org
                                             </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Canada</a> 
+                                        </ul>
+                                        <ul class="list-inline g-flex-centered"> 
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://twitter.com/btolateju"> <i class="fa fa-twitter"></i></a> 
                                             </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Energy</a> 
-                                            </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Research</a> 
-                                            </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Global</a> 
-                                            </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">Education</a> 
-                                            </li>                                             
-                                            <li class="list-inline-item g-mb-10"> 
-                                                <a class="u-tags-v1 g-color-gray-dark-v4 g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-font-size-12 g-rounded-50 g-py-4 g-px-15" href="#">News</a> 
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://ca.linkedin.com/in/babatunde-olateju"> <i class="fa fa-linkedin"></i></a> 
                                             </li>                                             
                                         </ul>                                         
                                     </div>                                     
-                                    <!--End Tags-->                                     
-                                    <!--Newsletter-->                                     
-                                    <!--End Newsletter-->                                     
+                                    <div class="card rounded-0 g-bg-primary g-color-white g-brd-none">
+                                        <div id="accordion-05-heading-02" class="u-accordion__header g-pa-20" role="tab">
+                                            <h5 class="mb-0 text-uppercase g-font-size-default g-font-weight-700"><a class="d-block collapsed g-color-white g-text-underline--none--hover" href="#collapsetunde" data-toggle="collapse" data-parent="#accordion-05" aria-expanded="false" aria-controls="accordion-05-body-02"> <span class="u-accordion__control-icon g-mr-10"> <i class="fa fa-plus"></i> <i class="fa fa-minus"></i> </span>
+                                Read bio </a> </h5>
+                                        </div>
+                                        <div id="accordion-05-body-02" class="collapse" role="tabpanel" aria-labelledby="accordion-05-heading-02">
+                                            <div class="u-accordion__body g-color-white-opacity-0_8 g-pa-0-20-20">
+                                                This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key. Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial
+                                                in keeping the project in line to completion.
+</div>
+                                        </div>
+                                    </div>                                     
+                                    <!-- End Figure Info-->                                     
+                                </div>                                 
+                                <!-- End Team Block -->                                 
+                            </div>                             
+                            <div class="g-mb-30 col-lg-4 col-sm-12"> 
+                                <div class="shortcode-html"> 
+                                    <!-- Card -->                                     
+                                    <!-- End Card -->                                     
+                                </div>                                 
+                                <!-- Team Block -->                                 
+                                <div class="u-info-v6-1"> 
+                                    <!-- Figure -->                                     
+                                    <figure class="u-block-hover"> 
+                                        <!-- Figure Image -->                                         
+                                        <img class="w-100" src="img/aboutus/semiu.png" alt="Image Description"> 
+                                        <!-- End Figure Image-->                                         
+                                        <!-- Figure Caption -->                                         
+                                        <!-- End Figure Caption -->                                         
+                                    </figure>                                     
+                                    <!-- End Figure -->                                     
+                                    <!-- Figure Info -->                                     
+                                    <div class="g-bg-white g-pa-25"> 
+                                        <div class="g-mb-15"> 
+                                            <h4 class="h5 g-color-black g-mb-5">Semiu AbdSalami</h4> 
+                                            <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Founder</em> 
+                                        </div>                                         
+                                        <ul class="list-unstyled"> 
+                                            <li class="g-font-size-12 g-color-gray-dark-v5"> 
+                                                <strong>Email:</strong> semiu.abdsalami@seeinstitute.org
+                                            </li>                                             
+                                        </ul>
+                                        <ul class="list-inline g-flex-centered"> 
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://twitter.com/thisis_semiu"> <i class="fa fa-twitter"></i></a> 
+                                            </li>                                             
+                                            <li class="list-inline-item g-mx-2"> 
+                                                <a class="u-icon-v3 u-icon-size--xs g-color-gray-light-v1 g-bg-gray-light-v5 g-color-white--hover g-bg-primary--hover rounded-circle" href="https://ca.linkedin.com/in/semiusalami"> <i class="fa fa-linkedin"></i></a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                    </div>                                     
+                                    <div class="card rounded-0 g-bg-primary g-color-white g-brd-none">
+                                        <div id="accordion-05-heading-02" class="u-accordion__header g-pa-20" role="tab">
+                                            <h5 class="mb-0 text-uppercase g-font-size-default g-font-weight-700"><a class="d-block collapsed g-color-white g-text-underline--none--hover" href="#collapsesemiu" data-toggle="collapse" data-parent="#accordion-05" aria-expanded="false" aria-controls="accordion-05-body-02"> <span class="u-accordion__control-icon g-mr-10"> <i class="fa fa-plus"></i> <i class="fa fa-minus"></i> </span>
+                                Read bio </a> </h5>
+                                        </div>
+                                        <div id="accordion-05-body-02" class="collapse" role="tabpanel" aria-labelledby="accordion-05-heading-02">
+                                            <div class="u-accordion__body g-color-white-opacity-0_8 g-pa-0-20-20">
+                                                This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key. Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial
+                                                in keeping the project in line to completion.
+</div>
+                                        </div>
+                                    </div>                                     
+                                    <!-- End Figure Info-->                                     
+                                </div>                                 
+                                <!-- End Team Block -->                                 
+                            </div>
+                            <div class="collapse" id="collapseabdul">
+                                <div class="card card-body"> 
+                                    <p>Abdul is a founding member of the SEE Institute. He has worked with private and public institutional investors around the world. Abdul envisions SEE working extensively with clients in Europe, North America, and Asia, helping inform their businesses about African opportunities. </p> 
+                                    <p>In his work,  Abdul advises clients on all aspects of business strategy, project management, project execution and governance in the African context. Prior to founding SEE, Abdul was part of a Project Management team at Air Liquide SA and worked in Engineering and Consulting in Canada</p> 
+                                </div>                                 
+                            </div>                             
+                            <div class="collapse" id="collapseabdul">
+                                <div class="card card-body"> 
+                                    <p>Abdul is a founding member of the SEE Institute. He has worked with private and public institutional investors around the world. Abdul envisions SEE working extensively with clients in Europe, North America, and Asia, helping inform their businesses about African opportunities. </p> 
+                                    <p>In his work,  Abdul advises clients on all aspects of business strategy, project management, project execution and governance in the African context. Prior to founding SEE, Abdul was part of a Project Management team at Air Liquide SA and worked in Engineering and Consulting in Canada</p> 
+                                </div>                                 
+                            </div>
+                            <div class="collapse" id="collapsetunde"> 
+                                <div class="card card-body"> 
+                                    <p>Babatunde is a professional in the Canadian Energy Industry who believes that holistic and prudent energy sector development, is an imperative for the economic and social advancement of developing countries. Currently, he assesses technology investment opportunities in the energy sector, to further economic and climate change mitigation objectives. He is a published author in the techno-economics of renewable and non-renewable energy systems, with over 15 publications in refereed journals, book chapters, technical reports, and media articles. Babatunde has been a speaker at over 20 conferences, workshops and summits. He is a member of an Inter-Provincial Working Group on Canadian Trade and Investment in Africa and serves as a committee member on a Pan-Canadian Technology Roadmap for Small Modular Nuclear Reactors.</p> 
+                                    <p>Babatunde received a PhD in Engineering Management from the University of Alberta, where he was a Sadler Scholar and President of the University's Energy Club as well as the Nigerian Students' Association. He completed his Masters Degree in Mechanical Engineering at Brunel University, London. Babatunde has a passionate interest in the nexus of energy, economics, environment, policy and geopolitics. These interests provide a holistic lens, through which, the energy opportunities and challenges of emerging markets, such as those in African continent, are analyzed.</p> 
+                                </div>                                 
+                            </div>                             
+                            <div class="collapse" id="collapsesemiu"> 
+                                <div class="card card-body"> 
+                                    <p>Semiu is a founding partner of the SEE Institute. He currently works as an engineer in the supporting investment decisions and assurance of major projects within an IOC. He previously worked within the energy industry evaluating the technical and commercial requirements of pipeline capital projects to prioritize expenditure through alternative economic analysis.</p> 
+                                    <p>Semiu obtained a Bachelors and Masters degree in Mechanical Engineering from Brunel University, UK. During the course of obtaining his degree he worked with IHS’s Engineering Sciences Data Unit, carrying out research, presenting and publishing findings to contribute to ESDU’s database. He is one of the recipients of the 2013 Royal Aeronautics Society Young person’s team award and is a member of the Association of Professional Engineers and Geoscientist of Alberta.</p> 
+                                    <p>Semiu envisions the SEE Institute becoming a “go to” source to the African public and government, on energy industry insights and strategy. He believes the Institute will help usher in a new dynamic focused on benefits to the continent and its citizens.</p> 
                                 </div>                                 
                             </div>                             
                         </div>                         
+                        <!-- End Team Block -->                         
                     </div>                     
                 </div>                 
+            </section>
+            <section class="aboutus_contactform_header">
+                <h2 class="aboutus_contactform_h2">Contact Us</h2>
+            </section>             
+            <div class="shortcode-html"> 
+                <!-- General Forms -->                 
+                <div class="row g-flex-centered"> 
+                    <div class="offset-sm-11 offset-11 col-md-6 text-left offset-md-4"> 
+                        <form class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30"> 
+                            <!-- Text Input -->                             
+                            <!-- End Text Input -->                             
+                            <!-- Input with Autocomplete -->                             
+                            <div class="form-group g-mb-20" action="https://formspree.io/semiu.abdsalami@seeinstitute.org" method="POST"> 
+                                <label class="g-mb-10" for="autocomplete1" name="Name">Your name</label>                                 
+                                <input class="form-control form-control-md rounded-0" id="autocomplete2" type="text" placeholder="John Doe" data-url="../../../assets/include/ajax/autocomplete-data-1.json" /> 
+                                <br /> 
+                                <label class="g-mb-10" for="autocomplete1" name="Email">Your email</label>                                 
+                                <input class="form-control form-control-md rounded-0" id="autocomplete2" type="text" placeholder="johndoe@domain.com" data-url="../../../assets/include/ajax/autocomplete-data-1.json" /> 
+                                <br /> 
+                                <label class="g-mb-10" for="autocomplete1" name="Subject">Subject </label>                                 
+                                <input class="form-control form-control-md rounded-0" id="autocomplete2" type="text" placeholder="..." data-url="../../../assets/include/ajax/autocomplete-data-1.json" /> 
+                                <br /> 
+                                <label class="g-mb-10" for="inputGroup2_2" name="Message">Your message</label>                                 
+                                <textarea class="form-control form-control-md rounded-0" id="inputGroup2_2" rows="3" placeholder="..."></textarea>                                 
+                                <br /> 
+                                <hr class="g-brd-gray-light-v4 g-mx-minus-30" />
+                                <input type="hidden" name="_next" value="https://www.seeinstitute.org/" /> 
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <button class="btn btn-primary" type="submit">Send</button>                                 
+                            </div>                             
+                            <!-- End Input with Autocomplete -->                             
+                            <!-- Text Input with Right Appended Icon -->                             
+                            <!-- End Text Input with Right Appended Icon -->                             
+                            <!-- Text Input with Left Appended Icon -->                             
+                            <!-- End Text Input with Left Appended Icon -->                             
+                            <!-- Text Input with Both Appended Icon -->                             
+                            <!-- End Text Input with Both Appended Icon -->                             
+                            <!-- Text Input with Right Appended Icon -->                             
+                            <!-- End Text Input with Right Appended Icon -->                             
+                            <!-- Text Input with Left Appended Icon -->                             
+                            <!-- End Text Input with Left Appended Icon -->                             
+                            <!-- Text Input with Both Appended Icon -->                             
+                            <!-- End Text Input with Both Appended Icon -->                             
+                        </form>                         
+                    </div>                     
+                </div>                 
+                <!-- End General Forms -->                 
+            </div>
+            <div class="shortcode-styles"> 
+                <!-- CSS Implementing Plugins -->                 
+                <link rel="stylesheet" href="../../../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css"> 
             </div>             
-            <!-- End Blog Grid Overlap Blocks -->             
-            <!-- Footer -->             
-            <!-- End Footer -->             
-            <!-- Copyright Footer -->             
+            <div class="shortcode-scripts"> 
+                <!-- jQuery UI Core -->                 
+                <script src="../../../assets/vendor/jquery-ui/jquery-ui.core.js"></script>                 
+                <!-- jQuery UI Helpers -->                 
+                <script src="../../../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>                 
+                <script src="../../../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>                 
+                <!-- jQuery UI Widgets -->                 
+                <script src="../../../assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>                 
+                <!-- JS Unify -->                 
+                <script src="../../../assets/js/components/hs.autocomplete.js"></script>                 
+                <!-- JS Plugins Init. -->                 
+                <script> $(document).on('ready', function () { // initialization of autocomplet $.HSCore.components.HSAutocomplete.init('#autocomplete2'); }); </script>                 
+            </div>             
+            <br /> 
+            <br /> 
+            <br /> 
+            <br /> 
+            <!-- End Breadcrumbs -->             
+            <!-- Blog Grid Overlap Blocks -->             
+            <div class="shortcode-scripts"> 
+                <!-- JS Implementing Plugins -->                 
+                <script src="../../assets/vendor/appear.js"></script>                 
+                <!-- JS Unify -->                 
+                <script src="../../assets/js/components/hs.progress-bar.js"></script>                 
+                <!-- JS Plugins Init. -->                 
+                <script>
+                    $(document).on('ready', function () {
+                      // initialization of horizontal progress bars
+                      var horizontalProgressBars = $.HSCore.components.HSProgressBar.init('.js-hr-progress-bar', {
+                        direction: 'horizontal',
+                        indicatorSelector: '.js-hr-progress-bar-indicator'
+                      });
+                    });
+                  </script>                 
+            </div>             
             <div id="shortcode5"> 
                 <div class="shortcode-html"> 
                     <!-- Footer -->                     
@@ -958,11 +1098,56 @@
         <!-- JS Master Slider -->         
         <script src="html/assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>         
         <!-- JS Customization -->         
+        <script src="html/assets/js/components/hs.carousel.js"></script>         
+        <script src="html/assets/vendor/slick-carousel/slick/slick.js"></script>         
         <script src="html/assets/js/custom.js"></script>         
+        <script src="html/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>         
+        <script src="html/assets/vendor/custombox/custombox.min.js"></script>         
+        <script src="html/assets/vendor/clipboard/dist/clipboard.min.js"></script>         
+        <script src="html/assets/js/components/hs.scrollbar.js"></script>         
+        <script src="html/assets/js/components/hs.modal-window.js"></script>         
+        <script src="html/assets/js/helpers/hs.modal-markup.js"></script>         
+        <script src="html/assets/js/components/hs.markup-copy.js"></script>         
+        <script src="html/assets/js/components/hs.tabs.js"></script>         
         <script>
           $(document).on('ready', function () {
             // initialization of carousel
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+
+            // initialization of carousel
             $.HSCore.components.HSCarousel.init('.js-carousel');
+
+            $('#carousel1').slick('setOption', 'dots', true, true);
+            $('#carousel1').slick('setOption', 'dotsClass', 'js-pagination u-carousel-indicators-v30 g-pos-abs g-top-0', true);
+            $('#carousel1').slick('setOption', 'customPaging', function (slider, i) {
+              var title = $(slider.$slides[i]).data('title');
+
+              return '<i class="u-dot-line-v1 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2 g-brd-primary--hover g-brd-primary--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+            }, true);
+
+            $('#carousel2').slick('setOption', 'dots', true, true);
+            $('#carousel2').slick('setOption', 'dotsClass', 'js-pagination u-carousel-indicators-v30 g-pos-abs g-bottom-0', true);
+            $('#carousel2').slick('setOption', 'customPaging', function (slider, i) {
+              var title = $(slider.$slides[i]).data('title');
+
+              return '<i class="u-dot-line-v1 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2 g-brd-primary--hover g-brd-primary--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+            }, true);
+
+            $('#carousel3').slick('setOption', 'dots', true, true);
+            $('#carousel3').slick('setOption', 'dotsClass', 'js-pagination u-carousel-indicators-v30 g-pos-abs g-top-0', true);
+            $('#carousel3').slick('setOption', 'customPaging', function (slider, i) {
+              var title = $(slider.$slides[i]).data('title');
+
+              return '<i class="u-dot-line-v2 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v2__inner g-bg-white--before g-brd-3--before--active g-brd-gray-light-v2--before g-brd-primary--before--hover u-block-hover__main--zoom-v1--hover g-brd-primary--before--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+            }, true);
+
+            $('#carousel4').slick('setOption', 'dots', true, true);
+            $('#carousel4').slick('setOption', 'dotsClass', 'js-pagination u-carousel-indicators-v30 g-pos-abs g-bottom-0', true);
+            $('#carousel4').slick('setOption', 'customPaging', function (slider, i) {
+              var title = $(slider.$slides[i]).data('title');
+
+              return '<i class="u-dot-line-v2 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v2__inner g-bg-white--before g-brd-3--before--active g-brd-gray-light-v2--before g-brd-primary--before--hover u-block-hover__main--zoom-v1--hover g-brd-primary--before--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+            }, true);
 
             $('#we-provide').slick('setOption', 'responsive', [{
               breakpoint: 992,
@@ -975,6 +1160,12 @@
                 slidesToShow: 1
               }
             }], true);
+
+            $('#carousel1').slick('setOption', 'customPaging', function (slider, i) {
+                  var title = $(slider.$slides[i]).data('title');
+
+                  return '<i class="u-dot-line-v1 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2 g-brd-primary--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
+                }, true);
 
             // initialization of masonry
             $('.masonry-grid').imagesLoaded().then(function () {
