@@ -200,3 +200,7 @@ a#nav-link-pages.nav_hover_blue:hover {
     background-color: white;
     border-bottom: 2px solid #bfbfbf;
 }
+
+.p_black {
+    color: #555;
+}
