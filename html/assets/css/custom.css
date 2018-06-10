@@ -198,9 +198,13 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .header_bck_color {
     background-color: white;
-    border-bottom: 2px solid #bfbfbf;
+    border-bottom: 2px solid #0078B6;
 }
 
 .p_black {
     color: #555;
+}
+
+.p_popup_bio {
+    text-align: center;
 }
