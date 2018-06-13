@@ -1,0 +1,163 @@
+.msp-preset-btn-189 {
+    background-color: transparent;
+    border-color: #ffcd61 !important;
+    border: 1px solid !important;
+    color: #ffcd61;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-189:hover {
+    text-decoration: none;
+    background-color: #ffcd61;
+    border-color: #ffcd61 !important;
+    border: 1px solid !important;
+    color: #f6f6f6;
+    text-transform: uppercase
+}
+
+.msp-preset-btn-189:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-cn-160-1 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-160-3 {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-size: 70px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-160-4 {
+    background-color: #ffcd61;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-160-5 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.msp-cn-160-22 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+    line-height: normal;
+    white-space: nowrap;
+    color: #414141;
+}
+
+.msp-cn-160-23 {
+    background-color: #ffcd61;
+    font-weight: normal;
+    line-height: normal;
+    color: #ffcd61;
+}
+
+.msp-cn-160-24 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+    line-height: normal;
+    color: #9e9e9e;
+}
+
+.msp-cn-160-25 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+    line-height: normal;
+    color: #777777;
+}
+
+.msp-cn-160-27 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #414141;
+}
+
+.msp-cn-160-28 {
+    background-color: #ffcd61;
+    font-weight: normal;
+    line-height: normal;
+    color: #ffcd61;
+}
+
+.msp-cn-160-29 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #9e9e9e;
+    text-transform: uppercase;
+}
+
+.msp-cn-160-30 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #777777;
+}
+
+.msp-cn-160-60 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #414141;
+}
+
+.msp-cn-160-61 {
+    background-color: #ffcd61;
+    font-weight: normal;
+    line-height: normal;
+    color: #ffcd61;
+}
+
+.msp-cn-160-62 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #9e9e9e;
+}
+
+.msp-cn-160-63 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #777777;
+}
+
+.msp-cn-160-66 {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-size: 70px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}

@@ -1,0 +1,305 @@
+.msp-preset-btn-180 {
+    color: #fff !important;
+    background-color: #46d8ae !important;
+    border: none !important
+}
+
+.msp-preset-btn-180:hover {
+    text-decoration: none;
+    background-color: #3dc8a0 !important;
+    color: #fff !important
+}
+
+.msp-preset-btn-180:active {
+    top: 0.5px
+}
+
+.msp-cn-145-4 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.msp-cn-145-7 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-8 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-9 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-10 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.msp-cn-145-13 {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #46d8ae;
+}
+
+.msp-cn-145-14 {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 23px;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.msp-cn-145-17 {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.msp-cn-145-18 {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #a7a7a7;
+}
+
+.msp-cn-145-19 {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-145-21 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-22 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-23 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-24 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-27 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-28 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-29 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-30 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-32 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-33 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-36 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-37 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #808080;
+}
+
+.msp-cn-145-38 {
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-color: #00ffff;
+    border-style: solid;
+    font-family: "Quicksand";
+    font-weight: normal;
+    font-size: 62px;
+    text-align: center;
+    letter-spacing: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #00ffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-39 {
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-color: #333333;
+    border-style: solid;
+    font-family: "Quicksand";
+    font-weight: normal;
+    font-size: 62px;
+    text-align: center;
+    letter-spacing: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-145-40 {
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-color: #ff4d4d;
+    border-style: solid;
+    font-family: "Quicksand";
+    font-weight: normal;
+    font-size: 62px;
+    text-align: center;
+    letter-spacing: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ff4d4d;
+    text-transform: uppercase;
+}
+
+.ms-ap-link-none-style a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.ms-burger-close {
+    display: none;
+}

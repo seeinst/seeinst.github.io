@@ -1,0 +1,9 @@
+.blurslider-gradient {
+  background: -webkit-linear-gradient(left, #9357cc 0%, #2989d8 50%, #2cc99d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.blurslider-button {
+  background: -webkit-linear-gradient(left, #9357cc 0%, #2989d8 50%, #2cc99d 100%)
+}

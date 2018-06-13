@@ -1,0 +1,234 @@
+.msp-preset-btn-132 {
+    background-color: #dedede;
+    color: #666
+}
+
+.msp-preset-btn-132:hover {
+    text-decoration: none;
+    background-color: #d1d1d1;
+    color: #666
+}
+
+.msp-preset-btn-132:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-preset-btn-172 {
+    background-color: #353434;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    font-weight: 200
+}
+
+.msp-preset-btn-172:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #353434
+}
+
+.msp-preset-btn-172:active {
+    text-decoration: none;
+    top: 1px
+}
+
+.msp-cn-121-2 {
+    border-style: none;
+    font-weight: normal;
+    line-height: normal;
+    max-width: 506px !important;
+    height: auto !important;
+}
+
+.msp-cn-121-3 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 364px !important;
+    height: auto !important;
+}
+
+.msp-cn-121-4 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 359px !important;
+    height: auto !important;
+}
+
+.msp-cn-121-5 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 478px !important;
+    height: auto !important;
+}
+
+.msp-cn-121-6 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 42px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #474747;
+}
+
+.msp-cn-121-7 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffb88f;
+}
+
+.msp-cn-121-8 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 62px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.msp-cn-121-11 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #191919;
+}
+
+.msp-cn-121-12 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: right;
+    line-height: normal;
+    white-space: nowrap;
+    color: #191919;
+}
+
+.msp-cn-121-14 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 62px;
+    text-align: right;
+    line-height: normal;
+    color: #ffb88f;
+}
+
+.msp-cn-121-16 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffb88f;
+}
+
+.msp-cn-121-17 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 32px !important;
+    height: auto !important;
+}
+
+.msp-cn-121-18 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #191919;
+}
+
+.msp-cn-121-21 {
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-121-23 {
+    font-weight: normal;
+    line-height: normal;
+    max-width: 32px !important;
+    height: auto !important;
+}
+
+.fs-slider .fullwidth-layers .ms-slide-layers {
+    left: 0 !important;
+    max-width: none !important;
+}
+
+@media screen and (min-width: 1280px) {
+    .font-title-55 {
+        font-size: 55px !important;
+    }
+
+    .font-desc-24 {
+        font-size: 24px !important;
+    }
+}
+
+.fs-slider .ms-wheel-icon {
+    -webkit-animation: scroll-wheel 1.3s ease-out infinite forwards;
+    -moz-animation: scroll-wheel 1.3s ease-out infinite forwards;
+    animation: scroll-wheel 1.3s ease-out infinite forwards;
+}
+
+@-webkit-keyframes scroll-wheel {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes scroll-wheel {
+    0% {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -moz-transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+@keyframes scroll-wheel {
+    0% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.soundcloudwrapper iframe {
+  width: 100% !important
+}
+
+.news-header .tp-tab-title {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  margin-bottom: 5px;
+  width: 350px;
+  display: block;
+  letter-spacing: 1px;
+}
+
+.news-header .tp-tab-desc {
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffcc00;
+  line-height: 25px;
+  font-family: "Roboto";
+}

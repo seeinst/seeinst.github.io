@@ -1,0 +1,140 @@
+.ms-parent > .master-slider {
+    background: url(../img/ms-parallax-post-background.jpg) repeat top left;
+}
+
+.msp-preset-18 {
+    font-family: "Quicksand";
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+    color: #fdfdfd;
+    background-color: transparent;
+}
+
+.msp-preset-19 {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #dddddc;
+    text-transform: uppercase;
+}
+
+.msp-cn-122-6 {
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-color: #c2b273;
+    border-style: solid;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-150-18 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+    white-space: nowrap;
+    color: #c2b273;
+    background-color: transparent;
+}
+
+.msp-cn-122-19 {
+    font-family: "Josefin Sans";
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-122-23 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+    white-space: nowrap;
+    color: #c2b273;
+    background-color: transparent;
+}
+
+.msp-cn-122-24 {
+    font-family: "Josefin Sans";
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-122-27 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+    white-space: nowrap;
+    color: #c2b273;
+    background-color: transparent;
+}
+
+.msp-cn-122-28 {
+    font-family: "Josefin Sans";
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-150-54 {
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-color: #c2b273;
+    border-style: solid;
+    font-weight: normal;
+    line-height: normal;
+    opacity: 0.3;
+}
+
+.msp-cn-150-55 {
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #c2b273;
+    background-color: transparent;
+}
+
+.msp-cn-150-56 {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.msp-cn-150-57 {
+    font-family: "Josefin Sans";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    text-transform: capitalize;
+}
