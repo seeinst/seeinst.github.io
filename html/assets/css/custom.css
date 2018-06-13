@@ -206,9 +206,12 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .p_popup_bio {
-    text-align: center;
 }
 
 .tag_text {
     margin-top: 20px;
+}
+
+.popup_title {
+    margin: auto;
 }

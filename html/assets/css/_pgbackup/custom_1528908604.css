@@ -134,6 +134,7 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .aboutsus_title {
     padding-top: 100px;
+    font-weight: 700;
 }
 
 .aboutus_accordion {
@@ -148,15 +149,16 @@ a#nav-link-pages.nav_hover_blue:hover {
     align-items: center;
     background-color: #0078B6;
     margin-bottom: 1.8em;
+    padding: 5px;
 }
 
 .aboutus_contactform_h2 {
-    padding: 1.5em;
+    padding: 0.5em;
     color: #efefef;
 }
 
 .home_slider_annotation {
-    font-size: 15px;
+    font-size: 0.3em;
     color: #bfbfbf;
     text-align: right;
     display: block;
@@ -174,4 +176,38 @@ a#nav-link-pages.nav_hover_blue:hover {
     width: 100%;
     height: 110px;
     z-index: 9;
+}
+
+.btn_flex {
+    display: flex;
+    flex-flow: row norap;
+}
+
+.aboutus_read_bio {
+    background-color: #0078B6;
+}
+
+.aboutus_header_spacer {
+    width: 100vw;
+    height: 105px;
+}
+
+.p_hero {
+    font-size: 1.1rem;
+}
+
+.header_bck_color {
+    background-color: white;
+    border-bottom: 2px solid #0078B6;
+}
+
+.p_black {
+    color: #555;
+}
+
+.p_popup_bio {
+}
+
+.tag_text {
+    margin-top: 20px;
 }
