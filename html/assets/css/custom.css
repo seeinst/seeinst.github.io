@@ -134,7 +134,8 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .aboutsus_title {
     padding-top: 100px;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 5em;
 }
 
 .aboutus_accordion {
@@ -194,7 +195,7 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .p_hero {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .header_bck_color {
@@ -213,6 +214,15 @@ a#nav-link-pages.nav_hover_blue:hover {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
+.about_name {
+    font-size: 1.6rem;
+}
+
+.about_email {
+    color: black;
+=======
 .popup_title {
     margin: auto;
+>>>>>>> origin/master
 }
