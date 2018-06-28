@@ -135,8 +135,17 @@ a#nav-link-pages.nav_hover_blue:hover {
 .aboutsus_title {
     padding-top: 100px;
     font-weight: 600;
-    font-size: 5em;
+    font-size: 570px;
 }
+
+@media only sceen and (max-width: 748px){
+    .aboutsus_title {
+        padding-top: 100px;
+        font-weight: 600;
+        font-size: 50px;
+    }
+}
+
 
 .aboutus_accordion {
     width: 80% !important;
@@ -196,6 +205,15 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .p_hero {
     font-size: 1.3rem;
+    font-weight:bold;
+}
+
+@media only sceen and (max-width: 748px){
+    .p_hero {
+        font-size: 0.8rem;
+        font-weight:bold;
+
+    }
 }
 
 .header_bck_color {
@@ -221,8 +239,9 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .about_email {
     color: black;
-=======
+
+    =======
 .popup_title {
-    margin: auto;
->>>>>>> origin/master
+        margin: auto;
+    }
 }
