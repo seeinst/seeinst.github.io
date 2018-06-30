@@ -65,12 +65,6 @@
     z-index: 9;
 }
 
-@media (max-width:767px) {
-    .slider_height_adj {
-        padding: ;
-    }
-}
-
 .hs-has-sub-menu > a::after {
     content: none;
 }
@@ -115,7 +109,6 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .quote_text_white {
     color: #efefef;
-    font-size: 3em;
 }
 
 .post_hero {
@@ -135,17 +128,16 @@ a#nav-link-pages.nav_hover_blue:hover {
 .aboutsus_title {
     padding-top: 100px;
     font-weight: 600;
-    font-size: 570px;
+    font-size: 70px;
 }
 
-@media only sceen and (max-width: 748px){
+@media (max-width: 748px){
     .aboutsus_title {
         padding-top: 100px;
         font-weight: 600;
         font-size: 50px;
     }
 }
-
 
 .aboutus_accordion {
     width: 80% !important;
@@ -205,14 +197,13 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .p_hero {
     font-size: 1.3rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-@media only sceen and (max-width: 748px){
+@media (max-width: 748px){
     .p_hero {
         font-size: 0.8rem;
-        font-weight:bold;
-
+        font-weight: bold;
     }
 }
 
@@ -244,4 +235,8 @@ a#nav-link-pages.nav_hover_blue:hover {
 .popup_title {
         margin: auto;
     }
+}
+
+.popup_title {
+    margin: auto;
 }

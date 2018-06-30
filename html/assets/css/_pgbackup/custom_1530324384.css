@@ -65,11 +65,7 @@
     z-index: 9;
 }
 
-@media (max-width:767px) {
-    .slider_height_adj {
-        padding: ;
-    }
-}
+
 
 .hs-has-sub-menu > a::after {
     content: none;
@@ -134,8 +130,18 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .aboutsus_title {
     padding-top: 100px;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 70px;
 }
+
+@media only sceen and (max-width: 748px){
+    .aboutsus_title {
+        padding-top: 100px;
+        font-weight: 600;
+        font-size: 50px;
+    }
+}
+
 
 .aboutus_accordion {
     width: 80% !important;
@@ -158,7 +164,7 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .home_slider_annotation {
-    font-size: 15px;
+    font-size: 0.2em;
     color: #bfbfbf;
     text-align: right;
     display: block;
@@ -167,6 +173,7 @@ a#nav-link-pages.nav_hover_blue:hover {
 
 .post_header_centered {
     text-align: center;
+    font-size: 3vw;
 }
 
 .home_blue_bck_header {
@@ -193,5 +200,44 @@ a#nav-link-pages.nav_hover_blue:hover {
 }
 
 .p_hero {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-weight:bold;
+}
+
+@media only sceen and (max-width: 748px){
+    .p_hero {
+        font-size: 0.8rem;
+        font-weight:bold;
+
+    }
+}
+
+.header_bck_color {
+    background-color: white;
+    border-bottom: 2px solid #0078B6;
+}
+
+.p_black {
+    color: #555;
+}
+
+.p_popup_bio {
+}
+
+.tag_text {
+    margin-top: 20px;
+}
+
+<<<<<<< HEAD
+.about_name {
+    font-size: 1.6rem;
+}
+
+.about_email {
+    color: black;
+
+    =======
+.popup_title {
+        margin: auto;
+    }
 }
